@@ -7,8 +7,18 @@
     <title>Frank Ocean Tribute</title>
     <link rel="stylesheet" href="frankTribute.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+    /* jQuery */
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="frankTribute.js"></script>
 </head>
 <body>
+    
+    <div class="reactive-background">
+        <p id="hello">Hello</p> 
+        <p id="bye">Good bye</p>
+        <p id="spanish">Hola</p>
+    </div>
 
     <div id="main" class="section-div">
         <h1 id="title">Frank Ocean</h1>
@@ -25,15 +35,22 @@
             </div>
         </div>
     </div>
+
+    <div class="section-spacer"></div>
     
     <div id="tribute-info" class="section-div">
         <h2 id="headline" class="section-div-title">Discography</h2>
         
+        <blockquote>
+            <em>"5 Albums by 30"</em>
+        </blockquote>
+
         <h3 class="subsection-title">Albums</h3>
-        <div class="discography-entry">
+        <div id="nostalgia-ultra" class="discography-entry">
             <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Frank_Ocean-Nostalgia_Ultra.jpeg" alt="Nostalgia, Ultra album cover">
             <p class="discography-entry-title">Nostalgia, Ultra</p>
             <p class="discography-entry-date">February 16, 2011</p>
+            
         </div>
         <div class="discography-entry">
             <img src="https://upload.wikimedia.org/wikipedia/en/2/28/Channel_ORANGE.jpg" alt="Channel Orange album cover">
@@ -63,7 +80,12 @@
         </ul>
         <br>
         <h4>Learn more about Frank on <a id="tribute-link" href="https://en.wikipedia.org/wiki/Frank_Ocean" target="_blank">Wikipedia</a></h4>
+
+        
+
     </div>
 
+    
+    
 </body>
 </html>
