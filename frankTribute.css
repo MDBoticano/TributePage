@@ -59,15 +59,28 @@ body {
 #title, #subtitle {
     margin: 0px;
 }
+#title {
+    font-size: 2.5em;
+    font-weight: 700;
+}
 ul {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
     list-style-type: none;
 }
-.ul-title {
+.section-div-title {
+    font-size: 2em;
+    font-weight: 500;
+}
+.subsection-spacer {
+    padding: 1em 0 0 0;
+}
+.subsection-title {
     padding: .5em 0;
     margin: 0;
+    font-size: 1.5em;
+    font-weight: 500;
 }
 li {
     margin: 10px;
