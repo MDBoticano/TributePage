@@ -4,7 +4,6 @@ body {
     background: #eee;
     margin: 0px;
     padding: 1rem;
-    /* overflow-x: hidden; */
 }
 #main {
     margin: auto;
@@ -35,6 +34,11 @@ body {
     padding: 0;
     font-size: 0.75em;
 }
+#tribute-info {
+    background-color: hsl(0,0%,99%);
+    margin: 1em 0;
+    padding: 1.5em 0;
+}
 #title, #subtitle {
     margin: 0px;
 }
@@ -48,6 +52,7 @@ li {
     margin: 10px;
 }
 
+/* Media Queries for varying screen sizes */
 @media screen and (max-width: 767px) {
     body {
         font-size: 12px;
