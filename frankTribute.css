@@ -1,18 +1,26 @@
 body {
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    background: #eee;
+    background: #ddd;
     margin: 0px;
-    padding: 1rem;
+    padding: 1em;
+}
+.section-div {
+    background: hsl(0, 0%, 100%)
 }
 #main {
-    margin: auto;
-    padding: 1em;
-    background: hsl(0, 0%, 100%);
+    margin: 0 auto;
+    padding: 2em;
+}
+#tribute-info {
+    margin: .5em 0 0 0;
+    padding: 1.5em 0;
 }
 #image{
-    border: 2px solid;
-    border-color: hsl(0,0%,10%);
+    /* border: 2px solid;
+    border-color: hsl(0,0%,10%); */
+    outline: 2px solid black;
+    outline-offset: -2px;
     display: block;
     max-width: 100%;
     margin: 0 auto;
@@ -21,9 +29,6 @@ body {
     display: block;
     max-width: 25%;
     margin: 0 auto;
-}
-.img-div {
-    width: 100%;
 }
 #img-caption p {
     padding: 1em 0.5em 0.25em 0.5em;
@@ -34,10 +39,22 @@ body {
     padding: 0;
     font-size: 0.75em;
 }
-#tribute-info {
-    background-color: hsl(0,0%,99%);
-    margin: 1em 0;
-    padding: 1.5em 0;
+.discography-entry {
+    padding: 2em 0 0 0;
+}
+.discography-entry img {
+    width: 80%;
+    max-width: 300px;
+    max-height: 300px;
+}
+.discography-entry-title, .discography-entry-date {
+    margin: .25em;
+}
+.discography-entry-title {
+    font-size: 1.25em;
+}
+.img-div {
+    width: 100%;
 }
 #title, #subtitle {
     margin: 0px;
@@ -47,6 +64,10 @@ ul {
     margin: 0 auto;
     text-align: center;
     list-style-type: none;
+}
+.ul-title {
+    padding: .5em 0;
+    margin: 0;
 }
 li {
     margin: 10px;
