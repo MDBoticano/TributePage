@@ -6,7 +6,7 @@ body {
     padding: 1.5em;
 }
 .section-div {
-    background: hsla(0, 0%, 100%,.65);
+    background: hsla(0, 0%, 100%,.75);
     max-width: 768px;
     margin: 0 auto;
     padding: 2em;
@@ -24,14 +24,20 @@ body {
 
 }
 .reactive-background p {
-    color: #eee;
+    color: #d9d9d9;
+    /* color: black; */
     text-align: left;
-    font-size: 10em;
+    font-size: 4em;
     margin: 0;
     padding: 0;
 }
 
-#blonded_logo:hover > .reactive-background{
+.reactive-float {
+    float: left;
+}
+
+/* Can't get this to work unless direct sibling */
+/* #blonded_logo:hover > .reactive-background{
     color: red;
     background-color: green;
 }
@@ -39,7 +45,7 @@ body {
 #imgage:hover ~ #hello {
     color: black;
     background: red;
-}
+} */
 
 #main {
     position: relative;
