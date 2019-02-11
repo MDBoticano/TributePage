@@ -26,8 +26,9 @@ body {
     color: #d9d9d9;
     /* color: black; */
     text-align: left;
-    font-size: 4em;
-    margin: 0;
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0 auto;
     padding: 0;
 }
 .reactive-float {
