@@ -21,7 +21,6 @@ body {
     position: fixed;
     left: 0px;
     top: 0px;  
-
 }
 .reactive-background p {
     color: #d9d9d9;
@@ -31,27 +30,11 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .reactive-float {
     float: left;
 }
-
-/* Can't get this to work unless direct sibling */
-/* #blonded_logo:hover > .reactive-background{
-    color: red;
-    background-color: green;
-}
-
-#imgage:hover ~ #hello {
-    color: black;
-    background: red;
-} */
-
 #main {
     position: relative;
-}
-#tribute-info {
-    /* padding: 1.5em 0; */
 }
 #image{
     /* border: 2px solid;
@@ -138,4 +121,14 @@ li {
     body {
         font-size: 12px;
     }
+    
 }
+
+/* Work on this to reduce blank spaces when wrapping */
+/* @media screen and (min-width: 1920px) {
+    .reactive-background p {
+        font-size: 2em;
+        color: red;
+    }
+} */
+
